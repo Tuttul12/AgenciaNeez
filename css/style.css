@@ -2,17 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Prompt:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-
+.cabecalho{
+    background-color: black;
 }
 
-#top{
-    position: fixed;
-    top: 0;
-    left: 0%;
-    width: 100%;
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 0px; 
 }
 
+.header-left {
+    color:#d4d4d4;
+    text-align: right;
+}
+
+.header-right a{
+    color: #d4d4d4;
+    transition: color 0.3s;
+}
+
+.header-right a:hover{
+    color:#4e534e
+}
+
+.top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav .logo{
+    display: flex;
+}
