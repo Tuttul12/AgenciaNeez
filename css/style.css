@@ -53,8 +53,6 @@
     color: #4e534e;
 }
 
-#inicio{
-    height:711;
-    width: 1764;
-    background-image: url(/IMAGES/bg-header.png);
+#about{
+    background-color: blueviolet;
 }
