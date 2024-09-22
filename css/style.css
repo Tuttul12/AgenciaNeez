@@ -3,6 +3,9 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .cabecalho{
@@ -30,12 +33,28 @@
     color:#4e534e
 }
 
-.top-nav{
+.collapse{
+    padding-left: 1230px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: right;
 }
 
-.top-nav .logo{
-    display: flex;
+.nav-link{
+    color:#d4d4d4;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color:#4e534e;
+}
+
+.nav-link .active{
+    color: #4e534e;
+}
+
+#inicio{
+    height:711;
+    width: 1764;
+    background-image: url(/IMAGES/bg-header.png);
 }
