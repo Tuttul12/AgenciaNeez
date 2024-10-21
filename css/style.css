@@ -122,8 +122,16 @@ p {
   background-color: #9e9ea0;
 }
 
+.product {
+  display: flex;
+}
+
+.card,
+h1 {
+  text-align: center;
+}
+
 .card {
-  display: inline-block;
   text-align: center;
   color: #fff;
   margin: 64px;
@@ -132,9 +140,12 @@ p {
   height: 480px;
   background-color: #4e534e;
   box-shadow: #2c2c31;
-  border-radius: 5%;
+  border-radius: 2%;
   overflow-y: hidden;
   opacity: calc(0.8);
+  letter-spacing: monospace;
+  font-size: medium;
+  text-align: justify;
 }
 body {
   background-color: #efeffecf;
