@@ -63,7 +63,7 @@ images/: Diretório contendo imagens usadas no site.
 Contatos
 Para mais informações sobre o projeto ou para entrar em contato com os desenvolvedores, você pode usar os seguintes canais:
 
-Nome do Aluno 1: email1@dominio.com
-Nome do Aluno 2: email2@dominio.com
-Nome do Aluno 3: email3@dominio.com
+Daniel Moura: email1@dominio.com
+Luiz Wilton: email2@dominio.com
+Victor Hugo Almeida: victor.oliveira128@fatec.sp.gov.br
 Obrigado por visitar o projeto do site da empresa Agência Neez!
