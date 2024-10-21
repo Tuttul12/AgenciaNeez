@@ -31,13 +31,13 @@
 
 .header-left {
   color: #d4d4d4;
-  text-align: right;
+  text-align: left;
 }
 
 .header-right a {
   color: #d4d4d4;
   transition: color 0.3s;
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 .header-right a:hover {
@@ -72,7 +72,7 @@
 }
 
 #home {
-  background-image: url(../images/bg-header.png);
+  background-image: url(../IMAGES/bg-header.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
