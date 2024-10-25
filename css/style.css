@@ -150,7 +150,15 @@ body {
 input {
   background-color: #4e534e;
   color: #fff;
-  width: 10rem;
+  width: 120px;
+  height: 30px;
   font-size: large;
   cursor: grabbing;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid #4e534e;
+}
+
+input:hover {
+  transform: scale(1.1);
 }
