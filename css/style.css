@@ -319,9 +319,23 @@ p {
   text-align: justify;
   align-items: center;
   border: 4px solid #2c2c31;
+  position: relative;
 }
+
 body {
   background-color: #000;
+
+div.card > ul{
+  list-style-type: '\🗸\00A0';
+    list-style-position: inside;
+    
+}
+
+@media (max-widht: 750px) {
+  .card {
+    flex-direction: column;
+    z-index: 1;
+  }
 }
 
 input {
