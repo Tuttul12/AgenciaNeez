@@ -274,6 +274,12 @@ p {
   position: relative;
 }
 
+div.card > ul{
+  list-style-type: '\🗸\00A0';
+    list-style-position: inside;
+    
+}
+
 @media (max-widht: 750px) {
   .card {
     flex-direction: column;
