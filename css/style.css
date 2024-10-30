@@ -256,12 +256,41 @@ h1 {
   padding: 425px;
 }
 
-#about {
-  background-color: #4e534e;
+main.about{
+  color: #000;
   padding-left: 15%;
   padding-right: 15%;
   align-items: center;
+  text-align: justify;
+  }
+  .galeria {
+            display: flex;
+            justify-content: space-around;
+        }
+        figure {
+            margin: 10px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%; /* Ajusta a imagem para caber no container */
+            height: auto;    /* Mantém a proporção da imagem */
+        }
+
+
+h2.about{
+  color: black;
+  padding-left: 15%;
+  padding-right: 15%;
 }
+
+article > div > p{
+  align-items: center;
+flex-direction: column;
+}
+p.about{
+  color: #000;
+}
+
 
 .text-align {
   padding-left: 10%;
@@ -321,9 +350,6 @@ p {
   border: 4px solid #2c2c31;
   position: relative;
 }
-
-body {
-  background-color: #000;
 
 div.card > ul{
   list-style-type: '\🗸\00A0';
