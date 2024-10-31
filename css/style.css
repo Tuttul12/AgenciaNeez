@@ -157,7 +157,7 @@ a {
   }
 }
 
-/* Estilo Carrosel */
+/* Estilização Home */
 .carrosel {
   display: grid;
   place-items: center;
@@ -175,10 +175,10 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 100%;
-  width: 80%;
+  width: 100%;
   overflow: hidden;
   background: #d4d4d4;
-  border-radius: 16px;
+  /* border-radius: 10px; */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.4px);
   -webkit-backdrop-filter: blur(7.4px);
@@ -189,17 +189,17 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
-  animation: scrolling 20s linear infinite;
+  gap: 80px;
+  animation: scrolling 10s linear infinite;
 }
 
 @keyframes scrolling {
   0% {
-    transform: translateX(80%);
+    transform: translateX(90%);
   }
 
   100% {
-    transform: translateX(-20%);
+    transform: translateX(-100%);
   }
 }
 
@@ -207,7 +207,7 @@ h1 {
   width: 12%;
   margin: 20px;
 }
-/* Fim Estilo Carrosel */
+/* Fim Estilização Home */
 
 .container-fluid {
   height: max-content;
@@ -256,41 +256,39 @@ h1 {
   padding: 425px;
 }
 
-main.about{
+main.about {
   color: #000;
   padding-left: 15%;
   padding-right: 15%;
   align-items: center;
   text-align: justify;
-  }
-  .galeria {
-            display: flex;
-            justify-content: space-around;
-        }
-        figure {
-            margin: 10px;
-            text-align: center;
-        }
-        img {
-            max-width: 100%; /* Ajusta a imagem para caber no container */
-            height: auto;    /* Mantém a proporção da imagem */
-        }
+}
+.galeria {
+  display: flex;
+  justify-content: space-around;
+}
+figure {
+  margin: 10px;
+  text-align: center;
+}
+img {
+  max-width: 100%; /* Ajusta a imagem para caber no container */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
-
-h2.about{
+h2.about {
   color: black;
   padding-left: 15%;
   padding-right: 15%;
 }
 
-article > div > p{
+article > div > p {
   align-items: center;
-flex-direction: column;
+  flex-direction: column;
 }
-p.about{
+p.about {
   color: #000;
 }
-
 
 .text-align {
   padding-left: 10%;
@@ -351,10 +349,9 @@ p {
   position: relative;
 }
 
-div.card > ul{
-  list-style-type: '\🗸\00A0';
-    list-style-position: inside;
-    
+div.card > ul {
+  list-style-type: "\🗸\00A0";
+  list-style-position: inside;
 }
 
 @media (max-widht: 750px) {
