@@ -202,11 +202,11 @@ h1 {
 
 @keyframes scrolling {
   0% {
-    transform: translateX(45%);
+    transform: translateX(145%);
   }
 
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-25%);
   }
 }
 
