@@ -203,7 +203,7 @@ h1 {
 
 @keyframes scrolling {
   0% {
-    transform: translateX(80%);
+    transform: translateX(40%);
   }
 
   100% {
@@ -213,7 +213,7 @@ h1 {
 
 .slider-items img {
   width: 12%;
-  margin: 30px;
+  margin: 20px;
 }
 /* Fim Estilização Home */
 
