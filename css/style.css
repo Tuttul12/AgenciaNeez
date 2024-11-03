@@ -15,6 +15,8 @@ a {
   text-decoration: none;
 }
 
+/* Estilização NAV */
+
 .header {
   background: #000;
   padding-inline: 16px;
@@ -28,10 +30,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.logo {
-  font-size: 48px;
 }
 
 .nav-list {
@@ -157,17 +155,27 @@ a {
   }
 }
 
-/* Estilo Carrosel */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+/* Fim Estilização NAV */
+/* Estilização Home */
 .carrosel {
   display: grid;
   place-items: center;
+  background-color: white;
 }
 
 h1 {
   font-size: 3rem;
   padding: 20px;
   margin: 20px 0px;
-  color: #b5b2a7;
+  color: #4e534e;
 }
 
 .slider {
@@ -205,23 +213,14 @@ h1 {
 
 .slider-items img {
   width: 12%;
-  margin: 20px;
+  margin: 25px;
 }
-/* Fim Estilo Carrosel */
+/* Fim Estilização Home */
 
 .container-fluid {
   height: max-content;
   background-color: #2c2c31;
   margin: 0;
-}
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 10px;
-  padding-left: 52px;
-  padding-right: 20px;
 }
 
 .header-left {
@@ -256,41 +255,39 @@ h1 {
   padding: 425px;
 }
 
-main.about{
+main.about {
   color: #000;
   padding-left: 15%;
   padding-right: 15%;
   align-items: center;
   text-align: justify;
-  }
-  .galeria {
-            display: flex;
-            justify-content: space-around;
-        }
-        figure {
-            margin: 10px;
-            text-align: center;
-        }
-        img {
-            max-width: 100%; /* Ajusta a imagem para caber no container */
-            height: auto;    /* Mantém a proporção da imagem */
-        }
+}
+.galeria {
+  display: flex;
+  justify-content: space-around;
+}
+figure {
+  margin: 10px;
+  text-align: center;
+}
+img {
+  max-width: 100%; /* Ajusta a imagem para caber no container */
+  height: auto; /* Mantém a proporção da imagem */
+}
 
-
-h2.about{
+h2.about {
   color: black;
   padding-left: 15%;
   padding-right: 15%;
 }
 
-article > div > p{
+article > div > p {
   align-items: center;
-flex-direction: column;
+  flex-direction: column;
 }
-p.about{
+p.about {
   color: #000;
 }
-
 
 .text-align {
   padding-left: 10%;
@@ -351,10 +348,9 @@ p {
   position: relative;
 }
 
-div.card > ul{
-  list-style-type: '\🗸\00A0';
-    list-style-position: inside;
-    
+div.card > ul {
+  list-style-type: "\🗸\00A0";
+  list-style-position: inside;
 }
 
 @media (max-widht: 750px) {
