@@ -275,15 +275,17 @@ img {
   height: auto; /* Mantém a proporção da imagem */
 }
 
-h2.about {
-  color: black;
+article > h1.about{
+  color: rgb(0, 0, 0);
   padding-left: 15%;
   padding-right: 15%;
+  text-align: center;
 }
 
-article > div > p {
+article > p {
   align-items: center;
   flex-direction: column;
+  margin-bottom: 65px;
 }
 p.about {
   color: #000;
