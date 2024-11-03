@@ -265,6 +265,7 @@ main.about {
 .galeria {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 65px;
 }
 figure {
   margin: 10px;
