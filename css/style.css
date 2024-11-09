@@ -191,6 +191,7 @@ h1 {
   backdrop-filter: blur(7.4px);
   -webkit-backdrop-filter: blur(7.4px);
   border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-bottom: 48px;
 }
 
 .slider-items {
@@ -276,7 +277,7 @@ img {
   height: auto; /* Mantém a proporção da imagem */
 }
 
-article > h1.about{
+article > h1.about {
   color: rgb(0, 0, 0);
   padding-left: 15%;
   padding-right: 15%;
@@ -426,7 +427,7 @@ input:hover {
 }
 
 .footer ul a {
-  color:#d4d4d4;
+  color: #d4d4d4;
   text-decoration: none;
   opacity: 0.8;
 }
