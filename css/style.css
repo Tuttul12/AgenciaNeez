@@ -364,7 +364,7 @@ div.card > ul {
   }
 }
 
-input {
+button {
   background-color: #4e534e;
   color: #fff;
   width: 120px;
@@ -376,10 +376,66 @@ input {
   border: 1px solid #4e534e;
 }
 
-input:hover {
+button:hover {
   transform: scale(1.1);
 }
+/* Estilização Contato */
 
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form_box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 700px;
+}
+
+.form_box .title {
+  padding: 24px 32px;
+  font-size: 24px;
+  border-bottom: thin solid #d4d4d4;
+}
+
+.form_box form {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.form_box input,
+.form_box textarea {
+  width: calc(50% - 8px);
+  height: 48px;
+  border-radius: 8px;
+  border: thin solid #d5d5d5;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.form_box input:first-child {
+  margin-right: 16px;
+}
+
+.form_box input[name="email"] {
+  width: 100%;
+}
+
+.form_box textarea {
+  width: 100%;
+  height: 180px;
+  padding: 16px;
+}
+
+/* Fim estilização Contato */
 /* Estilização Footer*/
 
 .footers {
