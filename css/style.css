@@ -11,7 +11,7 @@
 }
 
 a {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 
@@ -188,8 +188,8 @@ h1 {
   background: #d4d4d4;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(7.4px);
   -webkit-backdrop-filter: blur(7.4px);
+  backdrop-filter: blur(7.4px);
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
@@ -333,7 +333,7 @@ p {
   color: #fff;
   margin: 64px;
   padding: 8px;
-  width: 270px;
+  width: 300px;
   height: 480px;
   background-color: #000;
   box-shadow: 10px 5px 5px #000;
@@ -348,19 +348,7 @@ p {
   position: relative;
 }
 
-div.card > ul {
-  list-style-type: "\🗸\00A0";
-  list-style-position: inside;
-}
-
-@media (max-widht: 750px) {
-  .card {
-    flex-direction: column;
-    z-index: 1;
-  }
-}
-
-input {
+button {
   background-color: #4e534e;
   color: #fff;
   width: 120px;
@@ -372,7 +360,7 @@ input {
   border: 1px solid #4e534e;
 }
 
-input:hover {
+button:hover {
   transform: scale(1.1);
 }
 
@@ -423,7 +411,7 @@ input:hover {
 }
 
 .footer ul a {
-  color:#d4d4d4;
+  color: #d4d4d4;
   text-decoration: none;
   opacity: 0.8;
 }
