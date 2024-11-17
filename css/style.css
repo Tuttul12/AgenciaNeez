@@ -505,3 +505,35 @@ button:hover {
 }
 
 /* Fim Estilização Footer*/
+
+
+.missao {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 200px; 
+    height: auto; 
+    color: #000;
+}
+.valor {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 200px; 
+    height: auto; 
+    color: #000;
+}
+.visao {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 200px; 
+    height: auto; 
+    color: #000;
+}
+.ideais{
+  color: #000;
+}
+spam{
+  font-weight: bolder;
+}
