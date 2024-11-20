@@ -298,17 +298,16 @@ p.about {
   justify-content: space-between;
 }
 
-.ideais{
+.ideais {
   border: 3px;
   padding: 20px;
   text-align: center;
   color: #000;
-  
 }
-.ideais >h2{
+.ideais > h2 {
   color: #000;
 }
-.ideais >p{
+.ideais > p {
   color: #000;
   text-align: justify;
   margin-left: 0;
@@ -429,7 +428,7 @@ main .product {
 }
 
 .card-action button:hover {
-  background: #17ead9;
+  background: #4e534e;
 }
 
 .card-action button a {
@@ -438,7 +437,7 @@ main .product {
   font-size: 15px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 768px) {
   .product {
     display: block;
     flex-direction: column;
