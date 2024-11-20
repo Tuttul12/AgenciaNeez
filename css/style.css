@@ -216,6 +216,44 @@ h1 {
   width: 12%;
   margin: 25px;
 }
+
+/* Estilização da Section Sec*/
+
+.sec .second {
+  display: flex;
+  align-items: center;
+}
+
+.sec .user-img {
+  width: 50%;
+}
+
+.sec .user-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.sec .user-text {
+  width: 50%;
+  padding-left: 90px;
+}
+
+.sec .user-text h3 {
+  font-size: 2.5em;
+}
+
+.sec .user-text p {
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+}
+
+.sec .user-text p b {
+  color: #4e534e;
+  font-size: 16px;
+}
+
+/* Fim da estilização Section sec */
 /* Fim Estilização Home */
 
 .container-fluid {
