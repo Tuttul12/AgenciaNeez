@@ -331,6 +331,27 @@ p.about {
   color: #000;
 }
 
+.conteudoideais {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ideais{
+  border: 3px;
+  padding: 20px;
+  text-align: center;
+  color: #000;
+  
+}
+.ideais >h2{
+  color: #000;
+}
+.ideais >p{
+  color: #000;
+  text-align: justify;
+  margin-left: 0;
+}
+
 .text-align {
   padding-left: 10%;
   padding-right: 10%;
