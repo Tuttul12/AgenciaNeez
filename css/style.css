@@ -467,6 +467,7 @@ main .product {
 
 .card-action button:hover {
   background: #4e534e;
+  color: #d4d4d4;
 }
 
 .card-action button a {
