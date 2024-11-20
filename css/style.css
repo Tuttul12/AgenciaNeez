@@ -417,12 +417,12 @@ main .product {
   align-items: center;
 }
 
-.product .card .card-title h2 {
+.card-title h2 {
   font-size: 30px;
   color: #9e9ea0;
 }
 
-.product .card .card-title p span {
+.card-title p span {
   font-size: 20px;
   letter-spacing: monospace;
 }
@@ -476,7 +476,7 @@ main .product {
 }
 
 @media (max-width: 768px) {
-  .product {
+  main {
     display: block;
     flex-direction: column;
     z-index: 1;
