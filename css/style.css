@@ -476,14 +476,6 @@ main .product {
   font-size: 15px;
 }
 
-@media (max-width: 768px) {
-  main {
-    display: block;
-    flex-direction: column;
-    z-index: 1;
-  }
-}
-
 /* Estilização Contato */
 
 .cont {
