@@ -20,13 +20,14 @@ a {
 .header {
   background: #000;
   padding-inline: 16px;
+  transition: 1.2s;
 }
+
 
 .nav {
   max-width: 1280px;
   height: 70px;
   margin-inline: auto;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -393,10 +394,32 @@ main .product {
   width: 1100px;
   height: 100%;
   margin: auto;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: space-around;
   color: white;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .product {
+    grid-template-columns: 1fr;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
 }
 
 .product .card {
